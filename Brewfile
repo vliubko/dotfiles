@@ -122,4 +122,3 @@ vscode "shd101wyy.markdown-preview-enhanced"
 vscode "Tim-Koehler.helm-intellisense"
 vscode "tsandall.opa"
 vscode "zhangciwu.swig-tpl"
-
