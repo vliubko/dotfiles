@@ -2,6 +2,12 @@
 # specify a directory to install
 cask_args appdir: "/Applications"
 
+# prerequisites
+tap "homebrew/cask"
+tap "buo/cask-upgrade"
+brew "mas"
+
+# python
 brew "python@3.11"
 
 # git
