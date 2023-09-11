@@ -16,7 +16,9 @@ brew "gh"
 brew "git"
 brew "sops"
 brew "pre-commit"
-brew "ankitpokhrel/jira-cli/jira-cli"
+
+tap "ankitpokhrel/jira-cli"
+brew "jira-cli"
 
 # shell
 brew "tree"
@@ -31,19 +33,26 @@ brew "httpie"
 brew "hurl"
 brew "rsync"
 brew "telnet"
-brew "teamookla/speedtest/speedtest"
+
+tap "teamookla/speedtest"
+brew "speedtest"
 
 # work with text
 brew "jq"
 brew "yq"
 brew "difftastic"
-brew "homeport/tap/dyff"
+
+tap "homeport/tap"
+brew "dyff"
+
 brew "gnu-sed"
 brew "ripgrep"
 brew "yamllint"
 
 # terraform
-brew "warrensbox/tap/tfswitch"
+tap "warrensbox/tap"
+brew "tfswitch"
+
 brew "terraform-docs"
 brew "terragrunt"
 brew "tflint"
@@ -51,22 +60,37 @@ brew "tflint"
 # k8s
 brew "kubectl"
 brew "kube-ps1"
-brew "tokiwong/tap/helm-switcher"
-brew "derailed/k9s/k9s"
-brew "orbstack"
+
+tap "tokiwong/tap"
+brew "helm-switcher"
+
+tap "derailed/k9s"
+brew "k9s"
+
 brew "kubectx"
 brew "kind"
 brew "stern"
-brew "metalbear-co/mirrord/mirrord"
-brew "derailed/popeye/popeye"
-brew "transcend-io/tap/terragrunt-atlantis-config"
-brew "txn2/tap/kubefwd"
-brew "utkuozdemir/pv-migrate/pv-migrate"
+
+tap "metalbear-co/mirrord"
+brew "mirrord"
+
+tap "derailed/popeye"
+brew "popeye"
+
+tap "transcend-io/tap"
+brew "terragrunt-atlantis-config"
+
+tap "txn2/tap"
+brew "kubefwd"
+
+tap "utkuozdemir/pv-migrate"
+brew "pv-migrate"
 
 # other
 brew "postgresql@14"
 
 # casks
+cask "orbstack"
 cask "visual-studio-code"
 cask "google-chrome"
 cask "iterm2"
@@ -75,7 +99,7 @@ cask "spotify"
 cask "telegram"
 cask "spectacle"
 cask "setapp"
-
+cask "1password"
 
 
 # Security
