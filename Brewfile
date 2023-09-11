@@ -67,6 +67,8 @@ cask "iterm2"
 cask "slack"
 cask "spotify"
 cask "telegram"
+cask "spectacle"
+cask "setapp"
 
 
 
