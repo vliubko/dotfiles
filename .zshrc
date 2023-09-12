@@ -70,11 +70,20 @@ zstyle ':omz:update' frequency 13
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git kubectl zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(
+  git
+  kubectl
+  kube-ps1
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+
+PROMPT=$PROMPT'$(kube_ps1) '
+export KUBE_PS1_CTX_COLOR="yellow"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
