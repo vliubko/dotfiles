@@ -68,6 +68,7 @@ tap "derailed/k9s"
 brew "k9s"
 
 brew "kubectx"
+brew "kube-ps1"
 brew "kind"
 brew "stern"
 
@@ -90,6 +91,7 @@ brew "pv-migrate"
 brew "postgresql@14"
 
 # casks
+cask "google-cloud-sdk"
 cask "orbstack"
 cask "visual-studio-code"
 cask "google-chrome"
@@ -99,6 +101,7 @@ cask "spotify"
 cask "telegram"
 cask "spectacle"
 cask "setapp"
+cask "nordvpn"
 cask "1password"
 
 
