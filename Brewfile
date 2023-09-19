@@ -91,6 +91,7 @@ brew "pv-migrate"
 brew "postgresql@14"
 
 # casks
+cask "google-cloud-sdk"
 cask "orbstack"
 cask "visual-studio-code"
 cask "google-chrome"
@@ -100,6 +101,7 @@ cask "spotify"
 cask "telegram"
 cask "spectacle"
 cask "setapp"
+cask "nordvpn"
 cask "1password"
 cask "signal"
 
