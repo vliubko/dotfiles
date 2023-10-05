@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
- export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH:${KREW_ROOT:-$HOME/.krew}/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -116,3 +116,11 @@ alias kd='kubectl describe'
 alias b64='base64 -D'
 alias t="terraform"
 alias tg="terragrunt"
+alias helmswitch="helmswitch -b /Users/$USER/bin/helm"
+
+export JIRA_API_TOKEN="lala"
+
+# enable auto-completion for kubectx
+fpath=(/Users/vliubko/.oh-my-zsh/custom/completions /Users/vliubko/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting /Users/vliubko/.oh-my-zsh/custom/plugins/zsh-autosuggestions /Users/vliubko/.oh-my-zsh/plugins/kube-ps1 /Users/vliubko/.oh-my-zsh/plugins/kubectl /Users/vliubko/.oh-my-zsh/plugins/git /Users/vliubko/.oh-my-zsh/functions /Users/vliubko/.oh-my-zsh/completions /Users/vliubko/.oh-my-zsh/cache/completions /usr/local/share/zsh/site-functions /usr/share/zsh/site-functions /usr/share/zsh/5.9/functions /Users/vliubko/.oh-my-zsh/custom/plugins/zsh-completions/src)
+
+autoload -U compinit && compinit

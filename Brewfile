@@ -21,7 +21,7 @@ brew "pre-commit"
 tap "ankitpokhrel/jira-cli"
 brew "jira-cli"
 
-# shell
+# terminal tools
 brew "tree"
 brew "btop"
 brew "htop"
@@ -104,6 +104,7 @@ cask "setapp"
 cask "nordvpn"
 cask "1password"
 cask "signal"
+cask "zoom"
 
 # Mac Apple Store
 mas "1Password for Safari", id: 1569813296
