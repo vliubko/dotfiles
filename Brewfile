@@ -3,9 +3,9 @@
 cask_args appdir: "/Applications"
 
 # prerequisites
-tap "homebrew/cask"
 tap "buo/cask-upgrade"
 brew "mas"
+brew "coreutils"
 
 # lang
 brew "python@3.11"
@@ -58,6 +58,9 @@ brew "terraform-docs"
 brew "terragrunt"
 brew "tflint"
 
+# docker
+brew "orbstack"
+
 # k8s
 brew "kubectl"
 brew "kube-ps1"
@@ -92,7 +95,6 @@ brew "postgresql@14"
 
 # casks
 cask "google-cloud-sdk"
-cask "orbstack"
 cask "visual-studio-code"
 cask "google-chrome"
 cask "iterm2"
